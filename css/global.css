@@ -1,10 +1,7 @@
 @font-face {
-    font-family: 'Graphik';
-    src: local('Graphik Light'), local('Graphik-Light'),
-        url('Graphik-Light.woff2') format('woff2'),
-        url('Graphik-Light.woff') format('woff'),
-        url('Graphik-Light.ttf') format('truetype');
-  }
+    font-family: 'graphiklcg-regular';
+    src: url('../fonts/GraphikLCG-Regular.ttf');
+} 
 
 * {
     margin: 0;
@@ -20,4 +17,5 @@ img {
 body {
     max-width: 1777px;
     margin: auto;
+    font-family: 'graphiklcg-regular';
 }
