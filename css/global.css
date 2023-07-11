@@ -1,4 +1,23 @@
+@font-face {
+    font-family: 'Graphik';
+    src: local('Graphik Light'), local('Graphik-Light'),
+        url('Graphik-Light.woff2') format('woff2'),
+        url('Graphik-Light.woff') format('woff'),
+        url('Graphik-Light.ttf') format('truetype');
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
 
 body {
     max-width: 1777px;
+    margin: auto;
 }
