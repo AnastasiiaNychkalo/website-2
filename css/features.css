@@ -1,0 +1,28 @@
+.features {
+    width: 418px;
+    padding: 80px 0px 80px 0px;
+    gap: 50px;
+}
+.features__text {
+    width: 285px;
+    gap: 7px;
+}
+.features__text--title {
+    width: 214px;
+    height: 55px;
+    gap:10px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    align-items: center;
+    color: var(--main-color);
+}
+.features__text--subtitle {
+    width: 285px;
+    gap: 10px;
+    font-weight: 400px;
+    font-size: 28px;
+    line-height: 40px;
+    align-items: center;
+    color: var(--main-color-second);
+}

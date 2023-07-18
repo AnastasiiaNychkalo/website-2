@@ -16,6 +16,11 @@ img {
 
 body {
     max-width: 1777px;
-    margin: auto;
     font-family: 'graphiklcg-regular';
+}
+
+:root {
+    --main-color: #252B42;
+    --main-color-second: #374754;
+
 }
