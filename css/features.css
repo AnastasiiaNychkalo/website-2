@@ -1,12 +1,20 @@
 .features {
-    width: 418px;
+    min-width: 418px;
     padding: 80px 0px 80px 0px;
     gap: 50px;
 }
+
 .features__text {
     width: 285px;
     gap: 7px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 552px;
+    margin: auto;
+}   
+
 .features__text--title {
     width: 214px;
     height: 55px;
@@ -14,15 +22,66 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 55px;
-    align-items: center;
     color: var(--main-color);
 }
+
 .features__text--subtitle {
     width: 285px;
     gap: 10px;
     font-weight: 400px;
     font-size: 28px;
     line-height: 40px;
-    align-items: center;
     color: var(--main-color-second);
 }
+
+.features__cards {
+    width: 255px;
+    padding: 18px 0px 18px 0px;
+    gap: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.features__cards-fonts {
+    width: 255px;
+    height: 257px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.features__cards-fonts-img {
+    width: 45.74px;
+    height: 45.75px;
+}
+
+.features__cards-fonts--title {
+    width: 214px;
+    height: 76px;
+    padding: 10px;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    color: var(--main-color);
+}
+
+.features__cards-fonts--text {
+    width: 251px;
+    height: 100px;
+    padding: 0px 10px 0px 10px;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: center;
+    color: var(--main-color-second);
+    ;
+}
+
