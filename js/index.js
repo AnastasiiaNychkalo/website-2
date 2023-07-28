@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('.header__nav-menu'),
     menuItem = document.querySelectorAll('.header__nav-menu--item'),
     hamburger = document.querySelector('.hamburger');
